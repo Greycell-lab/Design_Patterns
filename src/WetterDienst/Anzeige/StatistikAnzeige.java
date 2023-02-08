@@ -1,6 +1,8 @@
-package WetterDienst;
+package WetterDienst.Anzeige;
 
-public class StatistikAnzeige implements AnzeigeElement, Beobachter{
+import WetterDienst.Daten.Beobachter;
+
+public class StatistikAnzeige implements AnzeigeElement, Beobachter {
     @Override
     public void anzeigen() {
 

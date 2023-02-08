@@ -1,6 +1,8 @@
-package WetterDienst;
+package WetterDienst.Anzeige;
 
-public class DrittAnbieterAnzeige implements AnzeigeElement, Beobachter{
+import WetterDienst.Daten.Beobachter;
+
+public class DrittAnbieterAnzeige implements AnzeigeElement, Beobachter {
     @Override
     public void aktualisieren(double temperatur, double luftfeuchtigkeit, double luftdruck) {
 

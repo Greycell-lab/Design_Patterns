@@ -1,5 +1,8 @@
 package WetterDienst;
 
+import WetterDienst.Anzeige.AktuelleBedingungen;
+import WetterDienst.Daten.WetterDaten;
+
 public class Main {
     public static void main(String[] args) {
         WetterDaten wetterDaten = new WetterDaten();

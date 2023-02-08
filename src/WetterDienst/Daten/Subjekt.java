@@ -1,4 +1,4 @@
-package WetterDienst;
+package WetterDienst.Daten;
 
 public interface Subjekt {
     void registriereBeobachter(Beobachter beobachter);

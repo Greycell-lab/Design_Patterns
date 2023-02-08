@@ -1,6 +1,9 @@
-package WetterDienst;
+package WetterDienst.Anzeige;
 
-public class AktuelleBedingungen implements AnzeigeElement, Beobachter{
+import WetterDienst.Daten.Beobachter;
+import WetterDienst.Daten.Subjekt;
+
+public class AktuelleBedingungen implements AnzeigeElement, Beobachter {
     private double temperatur;
     private double luftfeuchtigkeit;
     Subjekt wetterDaten;

@@ -1,4 +1,4 @@
-package WetterDienst;
+package WetterDienst.Daten;
 
 import java.util.ArrayList;
 
